@@ -6,6 +6,16 @@
     <title>개발 블로그</title>
 </head>
 <body>
-    <?php echo "this is blog"; ?>
+    <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="../css/blog_main.css">
+    <script src="../js/blog_main.js"></script>
+
+    <canvas id="text" width="500" height="100"></canvas>
+    <canvas id="stage" width="500" height="100"></canvas>
+    <form id="form">
+        <input type="text" id="inputText" value="HELLO" />
+        <input type="submit" value="TRY IT" />
+    </form>
 </body>
 </html>
